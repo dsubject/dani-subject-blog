@@ -11,7 +11,9 @@ description: >-
   you're interested in learning more about my journey into coding, click here to
   read the full story.
 intro:
-  blurbs: []
+  blurbs:
+    - image: /img/tutorials.png
+      text: this is a blurb
   heading: Hello
   description: >
     Hi! I'm Danielle, but you can call me Dani. Welcome to my blog, Changing the
