@@ -98,7 +98,7 @@ export const AboutPageTemplate = ({
               <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
               </h2> */}
-              {/* <p className="is-size-5">{pricing.description}</p> */}
+              <p className="is-size-5">{pricing.description}</p>
               {/* <Pricing data={pricing.plans} /> */}
             </div>
           </div>
@@ -119,6 +119,16 @@ AboutPageTemplate.propTypes = {
   main: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
+    image1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  }),
+  testimonials: PropTypes.array,
+  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  pricing: PropTypes.shape({
+    heading: PropTypes.string,
+    description: PropTypes.string,
+    plans: PropTypes.array,
   }),
 }
 
@@ -134,6 +144,9 @@ const AboutPage = ({ data }) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
         main={frontmatter.main}
+        testimonials={frontmatter.testimonials}
+        fullImage={frontmatter.full_image}
+        pricing={frontmatter.pricing}
       />
     </Layout>
   )
@@ -180,6 +193,57 @@ export const aboutPageQuery = graphql`
         main {
           heading
           description
+          image1 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 526, quality: 92) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          image2 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 526, quality: 92) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          image3 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1075, quality: 72) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+        testimonials {
+          author
+          quote
+        }
+        full_image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        pricing {
+          heading
+          description
+          plans {
+            description
+            items
+            plan
+            price
+          }
         }
       }
     }
