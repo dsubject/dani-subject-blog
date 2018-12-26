@@ -8,8 +8,9 @@ description: >-
   Subject. I'm a writer, software developer and beekeeper (yup, you read that
   right) based out of Toronto. I made the switch into software development in
   January 2018, and before that I was a writer at a local radio station. If
-  you're interested in learning more about my journey into coding, click here to
-  read the full story.
+  you're interested in learning more about my journey into coding, click
+  [here](https://levelup.gitconnected.com/a-writers-journey-into-programming-eb16198773a1)
+  to read the full story.
 intro:
   blurbs:
     - image: /img/tutorials.png
