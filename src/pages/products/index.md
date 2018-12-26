@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: About Me
-image: /img/img_3196.jpg
+image: /img/img_3196_copy.png
 heading: What we offer
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
