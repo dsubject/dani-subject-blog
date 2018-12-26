@@ -2,12 +2,9 @@
 templateKey: about-page
 title: About Me
 image: /img/img_3196_banner.png
-heading: What we offer
+heading: About Me
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Hi! I'm Danielle, but you can call me Dani. Welcome to my blog, Changing the Subject. I'm a writer, software developer and beekeeper (yup, you read that right) based out of Toronto. I made the switch into software development in January 2018, and before that I was a writer at a local radio station. If you're interested in learning more about my journey into coding, click here to read the full story.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -37,19 +34,13 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
-  heading: What we offer
+  heading: Hello
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Hi! I'm Danielle, but you can call me Dani. Welcome to my blog, Changing the Subject. I'm a writer, software developer and beekeeper (yup, you read that right) based out of Toronto.
 main:
   heading: About Me
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    After losing my job in 2017, I realized I wasn't happy with the path that I was on, and I made the switch into software development. To read more about my journey into coding, check out my blog post 'A Writer's Journey into Programming.'
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/dsc01250.jpg

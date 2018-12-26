@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-//import Features from '../components/Features'
+import Features from '../components/Features'
 //import Testimonials from '../components/Testimonials'
 //import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
@@ -34,7 +34,7 @@ export const AboutPageTemplate = ({
                   })`,
                 }}
               >
-{/*                 <h2
+                 <h2
                   className="has-text-weight-bold is-size-1"
                   style={{
                     boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
@@ -44,22 +44,22 @@ export const AboutPageTemplate = ({
                   }}
                 >
                   {title}
-                </h2> */}
+                </h2>
               </div>
-{/*               <div className="columns">
+               <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-2">
                     {heading}
                   </h3>
                   <p>{description}</p>
                 </div>
-              </div> */}
-              {/* <Features gridItems={intro.blurbs} /> */}
+              </div>
+               {/* <Features gridItems={intro.blurbs} /> */}
               <div className="columns">
                 <div className="column is-7">
-                  <h3 className="has-text-weight-semibold is-size-3">
+{/*                   <h3 className="has-text-weight-semibold is-size-3">
                     {main.heading}
-                  </h3>
+                  </h3> */}
                   <p>{main.description}</p>
                 </div>
               </div>
