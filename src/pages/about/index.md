@@ -1,5 +1,5 @@
 ---
-templateKey: product-page
+templateKey: about-page
 title: About Me
 image: /img/img_3196_banner.png
 heading: What we offer
