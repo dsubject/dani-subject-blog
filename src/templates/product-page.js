@@ -24,7 +24,7 @@ export const ProductPageTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="content">
-              <div
+{/*               <div
                 className="full-width-image-container margin-top-0"
                 style={{
                   backgroundImage: `url(${
@@ -45,16 +45,16 @@ export const ProductPageTemplate = ({
                 >
                   {title}
                 </h2>
-              </div>
-              <div className="columns">
+              </div> */}
+{/*               <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-2">
                     {heading}
                   </h3>
                   <p>{description}</p>
                 </div>
-              </div>
-              <Features gridItems={intro.blurbs} />
+              </div> */}
+              {/* <Features gridItems={intro.blurbs} /> */}
               <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
@@ -84,7 +84,7 @@ export const ProductPageTemplate = ({
                   </div>
                 </div>
               </div>
-              <Testimonials testimonials={testimonials} />
+{/*               <Testimonials testimonials={testimonials} />
               <div
                 className="full-width-image-container"
                 style={{
@@ -97,9 +97,9 @@ export const ProductPageTemplate = ({
               />
               <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
-              </h2>
+              </h2> */}
               <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
+              {/* <Pricing data={pricing.plans} /> */}
             </div>
           </div>
         </div>
