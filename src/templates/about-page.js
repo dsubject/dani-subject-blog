@@ -34,7 +34,7 @@ export const AboutPageTemplate = ({
                   })`,
                 }}
               >
-                 <h2
+{/*                  <h2
                   className="has-text-weight-bold is-size-1"
                   style={{
                     boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
@@ -44,7 +44,7 @@ export const AboutPageTemplate = ({
                   }}
                 >
                   {title}
-                </h2>
+                </h2> */}
               </div>
                <div className="columns">
                 <div className="column is-7">
