@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 //import Testimonials from '../components/Testimonials'
 //import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import Content, { HTMLContent } from '../components/Content'
 
 export const AboutPageTemplate = ({
   image,
@@ -60,7 +61,8 @@ export const AboutPageTemplate = ({
                    <h3 className="has-text-weight-semibold is-size-3">
                     {main.heading}
                   </h3>
-                  <p>{main.description}</p>
+                  <Content content={main.description}/>
+                  {/* <p>{main.description}</p> */}
                 </div>
               </div>
               <div className="tile is-ancestor">
