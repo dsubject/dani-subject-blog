@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
+import banner from '../../public/img/img_3196_banner.png'
+
 import Intro from '../components/Intro'
 
 export default class IndexPage extends React.Component {
@@ -15,13 +17,21 @@ export default class IndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1 className="is-size-5">Latest Posts</h1>
+               <div
+                className="full-width-image-container margin-top-0"
+                style={{
+                  backgroundImage: `url(${
+                    banner
+                  })`,
+                }}
+              ></div>
+              {/* <h1 className="is-size-5">Latest Posts</h1> */}
             </div>
             {posts
               .map(({ node: post }) => (
                 <div
                   className="content"
-                  style={{ border: '1px solid #333', padding: '2em 4em' }}
+                  style={{ padding: '2em 4em' }}
                   key={post.id}
                 >
                   <p>
