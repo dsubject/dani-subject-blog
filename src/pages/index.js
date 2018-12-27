@@ -14,24 +14,15 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <section className="section">
           <div className="container">
             <div className="content">
-{/*                <div
-                className="full-width-image-container margin-top-0"
-                style={{
-                  backgroundImage: `url(${
-                    banner
-                  })`,
-                }}
-              ></div> */}
-              {/* <h1 className="is-size-5">Latest Posts</h1> */}
+               <h1 className="is-size-5">Latest Posts</h1>
             </div>
             {posts
               .map(({ node: post }) => (
                 <div
                   className="content"
-                  style={{ padding: '2em 4em' }}
+                  style={{border: '1px solid #333', padding: '2em 4em' }}
                   key={post.id}
                 >
                   <p>
@@ -52,7 +43,6 @@ export default class IndexPage extends React.Component {
                 </div>
               ))}
           </div>
-        </section>
         <Intro />
       </Layout>
     )
