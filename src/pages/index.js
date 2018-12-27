@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
-import banner from '../../public/img/img_3196_banner.png'
+//import banner from '../../public/img/img_3196_banner.png'
 
 import Intro from '../components/Intro'
 
