@@ -6,9 +6,8 @@ heading: About Me
 main:
   description: >-
     After losing my job in 2017, I realized I wasn't happy with the path that I
-    was on, and I made the switch into [software
-    development.](https://github.com/dsubject) To read more about my journey
-    into coding, check out my blog post
+    was on, and I made the switch into software development. To read more about
+    my journey into coding, check out my blog post
   heading: About Me
   image1:
     alt: A close-up of a paper filter filled with ground coffee
