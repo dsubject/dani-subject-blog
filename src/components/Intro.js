@@ -12,7 +12,7 @@ const Intro = class extends React.Component {
     <div className="container">
       <div style={{display: 'flex', flexDirection: 'row'}}>
       <img src={selfie} alt="Myself" style={{maxHeight: "100px", margin: '1rem'}} />
-      <p style={{margin: '1rem'}}>
+      <p style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         Named after a column she used to write at the University of Guelph's student newspaper,
         Changing the Subject is a blog written by
         Danielle Subject. Her posts explore (but are not limited to) tech, music, beekeeping, and mental health.

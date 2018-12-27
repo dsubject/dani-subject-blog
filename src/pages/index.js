@@ -17,14 +17,14 @@ export default class IndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-               <div
+{/*                <div
                 className="full-width-image-container margin-top-0"
                 style={{
                   backgroundImage: `url(${
                     banner
                   })`,
                 }}
-              ></div>
+              ></div> */}
               {/* <h1 className="is-size-5">Latest Posts</h1> */}
             </div>
             {posts
@@ -35,7 +35,7 @@ export default class IndexPage extends React.Component {
                   key={post.id}
                 >
                   <p>
-                    <Link className="has-text-primary" to={post.fields.slug}>
+                    <Link style={{color: 'rgb(39 99 128)', fontWeight: '600'}} to={post.fields.slug}>
                       {post.frontmatter.title}
                     </Link>
                     <span> &bull; </span>
