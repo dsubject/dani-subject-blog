@@ -10,6 +10,7 @@ export const AboutPageTemplate = ({
   heading,
   main,
 }) => (
+  <section className="section section--gradient">
     <div className="container">
             <div className="content">
               <div className="columns">
@@ -50,6 +51,7 @@ export const AboutPageTemplate = ({
               </div>
         </div>
     </div>
+  </section>
 )
 
 AboutPageTemplate.propTypes = {

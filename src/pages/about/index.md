@@ -18,5 +18,8 @@ main:
   image3:
     alt: Coffee beans
     image: /img/dsc01230.jpg
+  image4:
+    alt: Coffee beans
+    image: /img/dsc01230.jpg
 ---
 
