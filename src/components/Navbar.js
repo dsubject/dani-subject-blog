@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
+
 import github from '../img/github-icon.svg'
 import instagram from '../img/glyph-logo_May2016.png'
 import medium from '../img/Monogram.png'
+import linkedin from '../img/In-Black-128px-TM.png'
 import logo from '../img/logo.png'
 
 const Navbar = class extends React.Component {
@@ -82,6 +84,16 @@ const Navbar = class extends React.Component {
             <span className="icon">
               <img src={medium} alt="Medium" />
             </span>
+        </a>
+        <a
+          className="navbar-item"
+          href="https://www.linkedin.com/in/danielle-subject/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="icon">
+            <img src={linkedin} alt="Linkedin" />
+          </span>
         </a>
         <a
           className="navbar-item"

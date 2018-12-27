@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Changing the Subject',
-    description: 'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+    description: 'Changing the Subject is a blog written by Danielle Subject. Her posts explore (but are not limited to) tech, music, beekeeping, and mental health.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

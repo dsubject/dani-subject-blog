@@ -17,7 +17,7 @@ export const AboutPageTemplate = ({
           <div className="column is-10 is-offset-1">
             <div className="content">
               <div className="columns">
-                <div className="column is-7">
+                <div className="column">
                    <h3 className="has-text-weight-semibold is-size-3">
                     {main.heading}
                   </h3>
@@ -25,6 +25,7 @@ export const AboutPageTemplate = ({
                   <a
                     href="https://levelup.gitconnected.com/a-writers-journey-into-programming-eb16198773a1"
                     target="_blank"
+                    rel="noopener noreferrer"
                     style={{color: 'rgb(39 99 128)'}}
                   >
                     <p>A Writer's Journey Into Programming</p>

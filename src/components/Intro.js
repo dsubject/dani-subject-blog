@@ -10,7 +10,7 @@ const Intro = class extends React.Component {
    return (
 
     <div className="container">
-      <div style={{display: 'flex', flexDirection: 'row'}}>
+      <div style={{display: 'flex', flexDirection: 'row', margin: '1rem'}}>
       <img src={selfie} alt="Myself" style={{maxHeight: "100px", margin: '1rem'}} />
       <p style={{display: 'flex', justifyContent: 'center', alignItems: 'center', fontStyle: 'italic'}}>
         Named after a column she used to write at the University of Guelph's student newspaper,
