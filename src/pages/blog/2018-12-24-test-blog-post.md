@@ -4,10 +4,7 @@ title: Testing a blog post
 date: 2017-01-04T15:04:10.000Z
 description: Testing this blog post this is a description.
 tags:
-  - jamaica
-  - green beans
-  - flavor
-  - tasting
+  - comics
 ---
 Blah blah blah.
 
