@@ -4,6 +4,8 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
+import Divider from '../components/Divider'
+
 export const AboutPageTemplate = ({
   image,
   title,
@@ -57,6 +59,7 @@ export const AboutPageTemplate = ({
           </div>
         </div>
       </div>
+      <Divider />
     </div>
   </section>
 )

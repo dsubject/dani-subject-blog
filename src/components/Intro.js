@@ -3,13 +3,14 @@ import React from 'react'
 //import github from '../img/github-icon.svg'
 import selfie from '../img/Layer_1.png'
 //import logo from '../img/logo.svg'
+import Divider from './Divider'
 
 const Intro = class extends React.Component {
 
  render() {
    return (
-
     <div className="container">
+      <Divider />
       <div style={{display: 'flex', flexDirection: 'row', margin: '1rem'}}>
       <img src={selfie} alt="Myself" style={{maxHeight: "100px", margin: '1rem'}} />
       <p style={{display: 'flex', justifyContent: 'center', alignItems: 'center', fontStyle: 'italic'}}>

@@ -43,7 +43,9 @@ export default class IndexPage extends React.Component {
                 </div>
               ))}
           </div>
-        <Intro />
+          <div style={{marginTop: '5rem'}}>
+            <Intro />
+          </div>
       </Layout>
     )
   }
