@@ -18,13 +18,11 @@ And here we are — or here I am. This blog will cover a variety of things, most
 
 Thank you for stopping by and for reading — it means so much to me to be able to connect with others. We all know that social media has its downfalls, but if it weren’t for these platforms I wouldn’t have been able to connect with so many of the incredible people I’ve met up until this point. I can’t wait to see what 2019 brings!
 
-
-
 **IF YOU'RE HERE FOR THE TECH:**
 
 I built this blog using Gatsby.js — a React-based static site generator, powered by GraphQL — and Netlify CMS. 
 
-This wasn’t my first time using Gatsby to create a site, but it was my first time building a blog with it. Gatsby comes with “starters” or boilerplate sites that are maintained by open source, so to make things a little easier for myself I used the gatsby-starter-netlify-cms starter. 
+This wasn’t my first time using Gatsby to create a site, but it was my first time building a blog with it. Gatsby comes with “starters” or boilerplate sites that are maintained by open source, so to make things a little easier for myself I used the [gatsby-starter-netlify-cms](https://www.gatsbyjs.org/starters/netlify-templates/gatsby-starter-netlify-cms/) starter. 
 
 Netlify CMS allowed me to create a CMS (content management system) for my blog posts, rather than having to create markdown files every time I want to write one. Basically, Netlify allows you to edit your site’s content through your git repository via API, so each change you make to your content results in a commit. 
 
