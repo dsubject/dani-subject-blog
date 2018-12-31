@@ -8,7 +8,7 @@ tags:
   - beekeeping
   - mental health
 ---
-_Changing the Subject_ is a project that is near and dear to my heart. The name is not just a pun on my last name, but also the name of a column I used to write at _the Ontarion _— the place where I became a writer. It was there that I had my first byline published; there that I discovered my love for telling stories; and there that I made lifelong friends. 
+_Changing the Subject_ is a project that is near and dear to my heart. The name is not just a pun on my last name, but also the name of a column I used to write at the Ontarion_ _— the place where I became a writer. It was there that I had my first byline published; there that I discovered my love for telling stories; and there that I made lifelong friends. 
 
 If I could have stayed there forever I would have, but alas, student newspapers are there to give students opportunities and I eventually had to move on. 
 
