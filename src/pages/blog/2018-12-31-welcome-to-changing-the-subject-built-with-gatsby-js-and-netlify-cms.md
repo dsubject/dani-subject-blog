@@ -27,3 +27,5 @@ This wasn’t my first time using Gatsby to create a site, but it was my first t
 Netlify CMS allowed me to create a CMS (content management system) for my blog posts, rather than having to create markdown files every time I want to write one. Basically, Netlify allows you to edit your site’s content through your git repository via API, so each change you make to your content results in a commit. 
 
 Netlify is honestly so easy to use it feels like I’m cheating. It took only a few minutes for me to map my domain and deploy my site. The only downfall is you need to pull from your git repo after making a change in your CMS, but I don’t even think that qualifies as a downfall. Command lines are fun.
+
+_Feel free to follow my journey on _[_Instagram_](https://www.instagram.com/changingthesubject/)_._
