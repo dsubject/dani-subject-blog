@@ -8,7 +8,7 @@ tags:
   - beekeeping
   - mental health
 ---
-_Changing the Subject_ is a project that is near and dear to my heart. The name is not just a pun on my last name, but also the name of a column I used to write at the Ontarion_ _— the place where I became a writer. It was there that I had my first byline published; there that I discovered my love for telling stories; and there that I made lifelong friends. 
+_Changing the Subject_ is a project that is near and dear to my heart. The name is not just a pun on my last name, but also the name of a column I used to write at the Ontarion\_ \_— the place where I became a writer. It was there that I had my first byline published; there that I discovered my love for telling stories; and there that I made lifelong friends. 
 
 If I could have stayed there forever I would have, but alas, student newspapers are there to give students opportunities and I eventually had to move on. 
 
@@ -17,8 +17,6 @@ My journey over the last four years has been one of both ups and downs. I comple
 And here we are — or here I am. This blog will cover a variety of things, mostly beekeeping and web development, but you’ll also see stuff about music, comic books, maybe a few DIY posts, and mental health. It’s called _Changing the Subject_, after all. 
 
 Thank you for stopping by and for reading — it means so much to me to be able to connect with others. We all know that social media has its downfalls, but if it weren’t for these platforms I wouldn’t have been able to connect with many of the incredible people I’ve met up until this point. I can’t wait to see what 2019 brings!
-
-
 
 **IF YOU'RE HERE FOR THE TECH:**
 
@@ -29,3 +27,5 @@ This wasn’t my first time using Gatsby to create a site, but it was my first t
 Netlify CMS allowed me to create a CMS (content management system) for my blog posts, rather than having to create markdown files every time I want to write one. Basically, Netlify allows you to edit your site’s content through your git repository via API, so each change you make to your content results in a commit. 
 
 Netlify is honestly so easy to use it feels like I’m cheating. It took only a few minutes for me to map my domain and deploy my site. The only downfall is you need to pull from your git repo after making a change in your CMS, but I don’t even think that qualifies as a downfall. Command lines are fun.
+
+_Feel free to follow my journey on _[_Instagram_](https://www.instagram.com/changingthesubject/)_._
