@@ -1,11 +1,8 @@
 ---
 templateKey: blog-post
-title: 'Welcome to Changing the Subject, built with Gatsby.js and Netlify CMS'
+title: Welcome to Changing the Subject
 date: 2018-12-31T18:53:49.979Z
-description: >-
-  Changing the Subject is a project that is near and dear to my heart. The name
-  is not just a pun on my last name, but also the name of a column I used to
-  write at the Ontarion — the place where I became a writer...
+description: 'An intro to my blog, built with Gatsby.js and Netlify CMS'
 tags:
   - coding
   - beekeeping
