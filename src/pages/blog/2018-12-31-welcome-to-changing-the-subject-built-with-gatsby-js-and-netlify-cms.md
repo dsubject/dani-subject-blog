@@ -8,15 +8,17 @@ tags:
   - beekeeping
   - mental health
 ---
-_Changing the Subject_ is a project that is near and dear to my heart. The name is not just a pun on my last name, but also the name of a column I used to write at _the Ontarion _— the place where I became a writer. It was there that I had my first byline published; there that I discovered my love for telling stories; and there that I made lifelong friends; some of them still here, and some watching over us at peace. 
+_Changing the Subject_ is a project that is near and dear to my heart. The name is not just a pun on my last name, but also the name of a column I used to write at _the Ontarion _— the place where I became a writer. It was there that I had my first byline published; there that I discovered my love for telling stories; and there that I made lifelong friends. 
 
-If I could have stayed there forever I would have, but alas, student newspapers are there to give students opportunities and I eventually had to say goodbye. 
+If I could have stayed there forever I would have, but alas, student newspapers are there to give students opportunities and I eventually had to move on. 
 
-My journey over the last four years has been one of both ups and downs. I completed my undergrad, moved to Toronto, got my first real “career” job, got laid off from that same job, went back to school, moved \*a lot\*, made a career change, rediscovered old passions and discovered new ones. During this time I also experienced loss, said goodbye to friends too soon, faced grief head on, and learned what it meant to live with a mental illness. It’s been a rollercoaster of a ride, to say the least, and I attribute my perseverance partly to myself (can’t deny myself that credit) but mostly to the people I love. I couldn’t have done it without my friends, old and new, and I am forever grateful for you all. 
+My journey over the last four years has been one of both ups and downs. I completed my undergrad, moved to Toronto, got my first real “career” job, got laid off from that same job, went back to school, moved a lot, made a career change (RE: [A writer's journey into programming](https://levelup.gitconnected.com/a-writers-journey-into-programming-eb16198773a1)), rediscovered old passions and discovered new ones. During this time I also experienced loss, said goodbye to friends too soon, faced grief head on, and learned what it meant to live with a mental illness. To say the least, it’s been a rollercoaster of a ride, and I attribute my perseverance partly to myself (always give yourself credit) but mostly to the people I love. I couldn’t have done it without my friends, old and new, and I am forever grateful for you all. 
 
 And here we are — or here I am. This blog will cover a variety of things, mostly beekeeping and web development, but you’ll also see stuff about music, comic books, maybe a few DIY posts, and mental health. It’s called _Changing the Subject_, after all. 
 
-Thank you for stopping by and for reading — it means so much to me to be able to connect with others. We all know that social media has its downfalls, but if it weren’t for these platforms I wouldn’t have been able to connect with so many of the incredible people I’ve met up until this point. I can’t wait to see what 2019 brings!
+Thank you for stopping by and for reading — it means so much to me to be able to connect with others. We all know that social media has its downfalls, but if it weren’t for these platforms I wouldn’t have been able to connect with many of the incredible people I’ve met up until this point. I can’t wait to see what 2019 brings!
+
+
 
 **IF YOU'RE HERE FOR THE TECH:**
 
