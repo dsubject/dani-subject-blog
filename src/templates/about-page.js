@@ -31,7 +31,7 @@ export const AboutPageTemplate = ({
                     style={{color: 'rgb(39 99 128)'}}
                   >
                     <p>A Writer's Journey Into Programming</p>
-                  </a>
+                    </a>
                 </div>
               </div>
               <div className="tile is-ancestor">
@@ -58,6 +58,9 @@ export const AboutPageTemplate = ({
             </div>
           </div>
         </div>
+          <p style={{display:'flex', justifyContent: 'center', alignItems: 'center'}}>
+            If you want to report a bug (or just looking to say hi), please feel free to reach out: daniellesubject@gmail.com.
+          </p>
       </div>
       <Divider />
     </div>
