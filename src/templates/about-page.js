@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import Divider from '../components/Divider'
 
@@ -24,14 +25,14 @@ export const AboutPageTemplate = ({
                     {main.heading}
                   </h3>
                   <p>{main.description}</p>
-                  <a
+                  <OutboundLink
                     href="https://levelup.gitconnected.com/a-writers-journey-into-programming-eb16198773a1"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{color: 'rgb(39 99 128)'}}
                   >
                     <p>A Writer's Journey Into Programming</p>
-                    </a>
+                    </OutboundLink>
                 </div>
               </div>
               <div className="tile is-ancestor">
