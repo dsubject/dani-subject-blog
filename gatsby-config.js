@@ -64,6 +64,13 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+      // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-87156604-2",
+      },
+    },
     'gatsby-plugin-purgecss', // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
