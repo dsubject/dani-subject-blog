@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Changing the Subject',
     description: 'Changing the Subject is a blog written by Danielle Subject. Her posts explore (but are not limited to) tech, music, beekeeping, and mental health.',
+    url: "https://www.changingthesubject.ca"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
