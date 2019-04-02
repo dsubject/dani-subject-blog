@@ -4,6 +4,7 @@ import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
+import CommentsForm from '../components/CommentsForm'
 import Content, { HTMLContent } from '../components/Content'
 
 export const BlogPostTemplate = ({
@@ -40,6 +41,7 @@ export const BlogPostTemplate = ({
               </div>
             ) : null}
           </div>
+          <CommentsForm />
         </div>
       </div>
     </section>
