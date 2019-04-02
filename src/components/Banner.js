@@ -14,6 +14,7 @@ const Banner = class extends React.Component {
           backgroundImage: `url(${
             banner
           })`,
+          backgroundRepeat: 'no-repeat'
         }}
       />
     </div>
