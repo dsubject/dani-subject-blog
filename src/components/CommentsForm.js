@@ -19,9 +19,9 @@ const CommentsForm = class extends React.Component {
             type="hidden"
             value="{{ page.slug }}"
           />
-          <label><input name="fields[name]" type="text" placeholder="Name" required />Name</label>
-          <label><input name="fields[email]" type="email" placeholder="Email" required />Email</label>
-          <label><textarea name="fields[message]" placeholder="Comment" required ></textarea>Message</label>
+          <label><input name="fields[name]" type="text" placeholder="Name" />Name</label>
+          <label><input name="fields[email]" type="email" placeholder="Email" />Email</label>
+          <label><textarea name="fields[message]" placeholder="Comment"></textarea>Message</label>
           <button type="submit">Submit Comment</button>
         </form>
       </div>
