@@ -41,7 +41,6 @@ export const BlogPostTemplate = ({
               </div>
             ) : null}
           </div>
-          <CommentsForm />
         </div>
       </div>
     </section>
@@ -76,6 +75,7 @@ const BlogPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
+      <CommentsForm />
     </Layout>
   )
 }
